@@ -56,13 +56,13 @@ body {
 }
 
 .content3 {
-    background-color: rgb(201, 197, 197);
+    background-color: white;
     position:absolute;
-    top: 550px;
+    top: 570px;
     left: 40px;
     display: block;
     width: 42%;
-    height: 23%;
+    height: 15%;
     margin: auto;
     border-style: groove;
     border-width: 10px;
@@ -70,13 +70,13 @@ body {
 }
 
 .content4 {
-    background-color: rgb(223, 234, 252);
+    background-color: white;
     position:absolute;
-    top: 550px;
+    top: 570px;
     left: 685px;
     display: block;
     width: 30%;
-    height: 23%;
+    height: 15%;
     margin: auto;
     border-style: groove;
     border-width: 10px;
@@ -86,7 +86,7 @@ body {
     font-size: 25px;
     text-align: center;
     font-weight: bold;
-    padding-top: 40px;
+    padding-top: 20px;
 }
 .link {
     font-size: 30px;
@@ -96,14 +96,14 @@ body {
     width: 30px;
     height: auto;
     position:absolute;
-    top: 101px;
+    top: 81px;
     left: 70px;
 }
 .gitImage {
     width: 30px;
     height: auto;
     position:absolute;
-    top: 101px;
+    top: 81px;
     left: 160px;
 }
 
