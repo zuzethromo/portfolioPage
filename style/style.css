@@ -295,17 +295,132 @@ p {
       height: auto;
 }
   
-@media screen and (max-width: 900px) {
+@media screen and (max-width: 980px) {
     .column {
       width: 50%;
 }
-  
-@media screen and (max-width: 600px) {
-    .column {
+
+/* Media for 640px */
+@media screen and (max-width: 640px) {
+    /* .column {
       width: 100%;
+    } */
+    .content {
+        position:absolute;
+        top: 600px;
+        right: 0px;
+        width: 50%;
+        margin: auto;
+    }
+    .content2 {
+        position:absolute;
+        top: 725px;
+        left: 0px;
+        height: 600px;
+        width: 4000px;
+    }
+    .content3 {
+        position:absolute;
+        top: 770px;
+        left: 40px;
+        width: 83%;
+        height: 12%;
+    }
+    .content4 {
+        position:absolute;
+        top: 920px;
+        left: 40px;
+        width: 63%;
+        height: 12%;
+    }
+    .content5 {
+        position:absolute;
+        top: 1090px;
+        left: 40px;
+        width: 83%;
+        height: 172%;
+    }
+    .cHeaders {
+        font-size: 18px;
+    }
+    .cInfo {
+        text-indent: 10px;
+        font-size: 16px;
+    }
+    .email {
+        font-size: 10px;
+    }
+    #resume {
+        border-radius: 5px;
+        width:150px;
+        height: auto;
+        position: absolute;
+        top: 500px;
+        right: 38px;
     }
 }
 
+/* Media for 768px */
+@media only screen and (max-width: 768px){
+    .modal-content {
+      width: 100%;
+}
+.content {
+    position:absolute;
+    top: 125px;
+    left: 40px;
+    width: 65%;
+    margin: auto;
+}
+.content2 {
+    position:absolute;
+    top: 125px;
+    left: 570px;
+    height: 600px;
+    width: 21%;
+}
+}
+.content3 {
+    position:absolute;
+    top: 770px;
+    left: 40px;
+    width: 83%;
+    height: 12%;
+}
+.content4 {
+    position:absolute;
+    top: 920px;
+    left: 40px;
+    width: 63%;
+    height: 12%;
+}
+.content5 {
+    position:absolute;
+    top: 1090px;
+    left: 40px;
+    width: 83%;
+    height: 172%;
+}
+.cHeaders {
+    font-size: 18px;
+}
+.cInfo {
+    text-indent: 10px;
+    font-size: 16px;
+}
+.email {
+    font-size: 10px;
+}
+#resume {
+    border-radius: 5px;
+    width:150px;
+    height: auto;
+    position: absolute;
+    top: 500px;
+    right: 38px;
+}
+
+/* OTHER */
 .content::after {
     content: "";
     clear: both;
