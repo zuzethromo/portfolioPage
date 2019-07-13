@@ -106,6 +106,42 @@ body {
     top: 81px;
     left: 160px;
 }
+.content5 {
+    background-color: white;
+    position:absolute;
+    top: 800px;
+    left: 40px;
+    display: block;
+    width: 93%;
+    height: 80%;
+    margin: auto;
+    border-style: solid;
+    border-width: 5px;
+    border-color: white;   
+}
+h2 {
+    font-family: 'Shadows Into Light', cursive;
+    font-family: 'Poppins', sans-serif;
+    background-color: rgb(240, 191, 199);
+    color: white;
+    text-align: center;
+    font-size: 45px;
+    font-weight: bold;
+    width: 100%;
+    margin: 0 auto;
+}
+h3 {
+    font-family: 'Shadows Into Light', cursive;
+    font-family: 'Poppins', sans-serif;
+    background-image: url("../images/IMG_1021.jpg");
+    color: white;
+    text-shadow: -1px 0 rgb(202, 199, 201), 0 1px rgb(202, 199, 201), 1px 0 rgb(202, 199, 201), 0 -1px rgb(202, 199, 201);
+    text-align: center;
+    font-size: 30px;
+    font-weight: bold;
+    width: 100%;
+    margin: 0 auto;
+}
 
 .cHeaders {
     text-decoration: underline;
@@ -224,6 +260,52 @@ p {
     text-decoration: none;
     cursor: pointer;
 }
+/* New Oneeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeee */  
+  .row {
+    margin: 8px -16px;
+  }
+  
+  .row,
+  .row > .column {
+    padding: 8px;
+  }
+  
+  .column {
+    float: left;
+    width: 23.8%;
+  }
+  
+  .row:after {
+    content: "";
+    display: table;
+    clear: both;
+  }
+  
+  .content55 {
+    background-color: rgb(240, 191, 199);
+    padding: 10px;
+    
+  }
+  .pics {
+      width:100%;
+      height: auto;
+  }
+  
+  /* Responsive layout - makes a two column-layout instead of four columns */
+  /* @media screen and (max-width: 900px) {
+    .column {
+      width: 50%;
+    }
+  } */
+  
+  /* Responsive layout - makes the two columns stack on top of each other instead of next to each other */
+  /* @media screen and (max-width: 600px) {
+    .column {
+      width: 100%;
+    }
+  } */
+/* Newwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwww */
+
 
 .content::after {
     content: "";
