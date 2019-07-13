@@ -1,11 +1,22 @@
+body {
+    background-image: url("../images/greyfloral.png")
+}
 .header {
     overflow: hidden;
-    padding: 0px;
-    padding-left: 95px;
-    background-color: white;
+    padding: 25px;
+    background-image: url("../images/IMG_1021.jpg");
     width: 100%;
 }
-.footer {
+
+.mePicture {
+    width: auto;
+    height: 150px;
+    float: left;
+    padding-left: 10px;
+    padding-right: 20px;
+
+}
+/* .footer {
     overflow: hidden;
     background-color: rgb(110, 108, 108);
     position: sticky;
@@ -17,10 +28,45 @@
     padding: 15px;
     color: white;
     border-top: 8px;
-}
+} */
 .content {
     background-color: white;
+    position: relative;
+    top: 50px;
     display: block;
-    width: 960px;
+    width: 90%;
     margin: auto;
+    border-style: groove;
+    border-width: 10px;
+    border-color: rgb(248, 246, 247);
+    
+}
+
+p {
+    font-family: 'Shadows Into Light', cursive;
+    font-family: 'Poppins', sans-serif;
+    font-size: 20px;
+    padding-left: 10px;
+    padding-bottom: 20px;
+    padding-right: 10px;
+    color: rgb(100, 98, 98);
+    text-align: justify;
+}
+
+.headerName {
+    font-family: 'Shadows Into Light', cursive;
+    font-family: 'Poppins', sans-serif;
+    background-color: rgb(240, 191, 199);
+    color: white;
+    text-align: center;
+    font-size: 45px;
+    font-weight: bold;
+    width: 80%;
+    margin: 0 auto;
+}
+
+.content::after {
+    content: "";
+    clear: both;
+    display: block;
 }
