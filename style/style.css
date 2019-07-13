@@ -125,7 +125,7 @@ body {
 h2 {
     font-family: 'Shadows Into Light', cursive;
     font-family: 'Poppins', sans-serif;
-    background-color: rgb(240, 191, 199);
+    background-color: rgb(100, 98, 98);
     color: white;
     text-align: center;
     font-size: 45px;
@@ -136,9 +136,8 @@ h2 {
 h3 {
     font-family: 'Shadows Into Light', cursive;
     font-family: 'Poppins', sans-serif;
-    background-image: url("../images/IMG_1021.jpg");
+    background-color:rgb(240, 191, 199);
     color: white;
-    text-shadow: -1px 0 rgb(202, 199, 201), 0 1px rgb(202, 199, 201), 1px 0 rgb(202, 199, 201), 0 -1px rgb(202, 199, 201);
     text-align: center;
     font-size: 30px;
     font-weight: bold;
@@ -263,58 +262,53 @@ p {
     text-decoration: none;
     cursor: pointer;
 }
-/* New Oneeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeee */  
-  .row {
+.row {
     margin: 8px -16px;
-  }
+}
   
-  .row,
-  .row > .column {
+.row,
+.row > .column {
     padding: 8px;
-  }
+}
   
-  .column {
+.column {
     float: left;
     width: 23.8%;
-  }
+}
   
-  .row:after {
+.row:after {
     content: "";
     display: table;
     clear: both;
-  }
+}
   
-  .content55 {
+.content55 {
     background-color: white;
     border-style: solid;
     border-width: 5px;
-    border-color: rgb(240, 191, 199);
+    border-color: rgb(194, 192, 192);
     padding: 5px;
     
-  }
-  .pics {
+}
+.pics {
       width:100%;
       height: auto;
-  }
+}
   
-  /* Responsive layout - makes a two column-layout instead of four columns */
-  /* @media screen and (max-width: 900px) {
+@media screen and (max-width: 900px) {
     .column {
       width: 50%;
-    }
-  } */
+}
   
-  /* Responsive layout - makes the two columns stack on top of each other instead of next to each other */
-  /* @media screen and (max-width: 600px) {
+@media screen and (max-width: 600px) {
     .column {
       width: 100%;
     }
-  } */
-/* Newwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwww */
-
+}
 
 .content::after {
     content: "";
     clear: both;
     display: block;
 }
+   }
